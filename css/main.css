@@ -1,9 +1,36 @@
-.siteHeader {
-	font-family: 'Oswald', sans-serif;
+.siteHeader h1 {
+	font-family: 'Cinzel', serif;
 	text-align: center;
 }
 
-.tempBody {
-	font-family: 'Oswald', sans-serif;
+.nav {
+	color: #5a5a5a;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+	font-family: 'Crimson Text', serif;
 	text-align: center;
 }
+
+.nav li {
+  display: inline;
+}
+
+.mainBody {
+	font-family: 'Josefin Slab', serif;
+	text-align: left;
+	padding: 3% 25%;
+}
+
+
+/* Fonts to use:
+ * 
+ * font-family: 'Josefin Slab', serif;
+ * font-family: 'Alegreya', serif;
+ * font-family: 'Crimson Text', serif;
+ * font-family: 'Cinzel', serif;
+ * font-family: 'Oswald', sans-serif;
+ * 
+ * 
+ */
