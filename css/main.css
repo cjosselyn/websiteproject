@@ -22,7 +22,10 @@
 	text-align: left;
 	padding: 3% 25%;
 }
-
+.calendarWidget {
+	text-align: center;
+	padding: 3% 25%;
+}
 
 /* Fonts to use:
  * 
