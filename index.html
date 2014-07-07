@@ -3,14 +3,15 @@
 <!-- Site created by Kody Striplin -->
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <meta http-equiv="refresh" content="10">
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta charset="utf-8" />
     	<!-- Fonts -->
     	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab|Alegreya|Crimson+Text|Cinzel' rel='stylesheet' type='text/css'>
     	<!-- CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     	<link href="css/main.css" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -18,33 +19,24 @@
         <script>
         var jumboHeight = $('.jumbotron').outerHeight();
         function parallax(){
-            var scrolled = $(window).scrollTop();
-            $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-        }
-
+        var scrolled = $(window).scrollTop();
+        $('.bg').css('height', (jumboHeight-scrolled) + 'px');}
         $(window).scroll(function(e){
-            parallax();
-        });
-    </script>
+        parallax();
+            });
+        </script>
         <title>TKC Programming Club</title>
     </head>
     <body>
-        <div style="
-  background: url(http://lorempixel.com/1650/350/abstract) no-repeat center center;
-  position: fixed;
-  width: 100%;
-  height: 350px;
-  top:0;
-  left:0;
-  z-index: -1;"></div>
-    <div class="jumbotron">
-        <h1>The Kings College Programming Club</h1>
-        <p>The TKC Programming and Computer Science Club exists to provide students with a community which makes the learning of programming easier and more accessible.</p>
-    </div>
-        <div class="nav">
-        	<div class="container">
-        		<ul>
-        			<li><a href="index.html">Home</a></li>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>The Kings College Programming Club</h1>
+            <p>The TKC Programming and Computer Science Club exists to provide students with a community which makes the learning of programming easier and more accessible.</p>
+            <div class="nav">
+        	   <div class="container">
+        	       <ul>
+                    <li><a href="index.html">Home</a></li>
         			<li> | </li>
         			<li><a href="about.html">About</a></li>
         			<li> | </li>
@@ -53,10 +45,11 @@
         			<li><a href="schedule.html">Schedule</a></li>
         			<li> | </li>
         			<li><a href="contact.html">Contact</a></li>
-        		</ul>
-        		<hr>
+        		  </ul>
         	</div>
        	</div>
+    </div>
+    </div>
 
         <div class="mainBody">
         	<p>	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue urna metus, sed sollicitudin lacus dictum eu. Donec ut tellus posuere, gravida nisi eget, ornare massa. In consectetur mattis dui. In pulvinar vulputate nisl vel porta. Donec fermentum felis id risus vestibulum mollis. Nulla elit nulla, vulputate ut auctor nec, pharetra bibendum mauris. Nam euismod non massa sit amet porta.
