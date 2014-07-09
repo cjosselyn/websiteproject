@@ -1,3 +1,0 @@
-/* This is a placeholder for a club message board.
-The goal is to work together to build a website that allows us to communicate and
-share our projects and problems with each other. */

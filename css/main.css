@@ -26,7 +26,15 @@
 	text-align: center;
 	padding: 3% 25%;
 }
-
+.bg {
+	background-image: url(http://wallpapers5.com/images/wallpapers/92270626/Travel/Midtown-Skyline-New-York-City.jpg);) no-repeat center center;
+	position: fixed;
+	width: 100%;
+	height: 350px; /*same height as jumbotron */
+	top:0;
+	left:0;
+	z-index: -1;
+}
 /* Fonts to use:
  * 
  * font-family: 'Josefin Slab', serif;

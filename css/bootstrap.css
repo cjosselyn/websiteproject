@@ -4367,8 +4367,10 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  color: white;
+  background-color: transparent;
+  /*Fix this to pull from a local image*/
+  background-image: url(../resources/Rupan.jpg);
 }
 .jumbotron h1,
 .jumbotron .h1 {
