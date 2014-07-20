@@ -1,19 +1,44 @@
-.siteHeader h1 {
-	font-family: 'Cinzel', serif;
-	text-align: center;
+.black, .black a {
+	color: #000000;
+}
+.jumbotron {
+	background-image: url(http://images.cdn.fotopedia.com/flickr-6620255181-hd.jpg);
+	background-size: cover;
+	margin-bottom: 0;
 }
 
-.nav {
-	color: #5a5a5a;
+
+.jumbotron .container {
+    position: relative;
+}
+
+.jumbotron h3 {
+  color: #FFFFFF;
+  font-size: 50px;  
+  font-family: 'Cinzel', sans-serif;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.navbar {
+	margin: 0;
+	border-radius: 0;
+}
+.navbar-custom{
 	font-size: 14px;
 	font-weight: bold;
-	padding: 14px 10px;
 	text-transform: uppercase;
 	font-family: 'Crimson Text', serif;
 	text-align: center;
+	margin: 0;
+	background-color: #828282;
 }
-
-.nav li {
+.navbar-header a {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.navbar li {
   display: inline;
 }
 
@@ -21,10 +46,12 @@
 	font-family: 'Josefin Slab', serif;
 	text-align: left;
 	padding: 3% 25%;
+	background-color: #D9D9D9;
 }
 .calendarWidget {
 	text-align: center;
 	padding: 3% 25%;
+
 }
 
 /* Fonts to use:
